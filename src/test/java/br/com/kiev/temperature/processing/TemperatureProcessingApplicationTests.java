@@ -1,4 +1,4 @@
-package br.com.kiev.temperatureprocessing;
+package br.com.kiev.temperature.processing;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
