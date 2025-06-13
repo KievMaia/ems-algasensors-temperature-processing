@@ -1,8 +1,9 @@
 package br.com.kiev.temperature.processing;
 
+import br.com.kiev.temperature.processing.common.UUIDv7Utils;
 import org.junit.jupiter.api.Test;
 
-import static br.com.kiev.temperature.processing.IdGenerator.generateTimeBasedUUID;
+import static br.com.kiev.temperature.processing.common.IdGenerator.generateTimeBasedUUID;
 
 class UUIDv7Test {
     @Test

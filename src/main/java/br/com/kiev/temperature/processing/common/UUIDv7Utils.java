@@ -1,4 +1,4 @@
-package br.com.kiev.temperature.processing;
+package br.com.kiev.temperature.processing.common;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;

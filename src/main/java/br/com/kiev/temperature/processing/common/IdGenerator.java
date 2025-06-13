@@ -1,4 +1,4 @@
-package br.com.kiev.temperature.processing;
+package br.com.kiev.temperature.processing.common;
 
 import com.fasterxml.uuid.Generators;
 import com.fasterxml.uuid.impl.TimeBasedEpochRandomGenerator;
