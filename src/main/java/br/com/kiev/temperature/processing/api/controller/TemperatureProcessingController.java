@@ -4,7 +4,6 @@ import br.com.kiev.temperature.processing.api.model.TemperatureLogOutput;
 import br.com.kiev.temperature.processing.common.IdGenerator;
 import io.hypersistence.tsid.TSID;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
