@@ -12,6 +12,7 @@ public class RabbitMQConfig {
 
     public static final String FANOUT_EXCHANGE_NAME = "temperature-processing.temperature-received.v1.e";
     public static final String TEMPERATURE_PROCESSED_QUEUE = "temperature-monitoring.process-temperature.v1.q";
+    public static final String QUEUE = "temperature-monitoring.process-temperature.v1.q";
 
     @Bean
     public RabbitAdmin rabbitAdmin(ConnectionFactory factory) {

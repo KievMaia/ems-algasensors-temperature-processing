@@ -1,6 +1,6 @@
 package br.com.kiev.temperature.processing.api.controller;
 
-import br.com.kiev.temperature.processing.api.model.TemperatureLogOutput;
+import br.com.kiev.temperature.processing.api.model.TemperatureLogData;
 import br.com.kiev.temperature.processing.common.IdGenerator;
 import io.hypersistence.tsid.TSID;
 import lombok.RequiredArgsConstructor;
@@ -36,7 +36,7 @@ public class TemperatureProcessingController {
                 .map(Double::parseDouble)
                 .orElseThrow(() -> new ResponseStatusException(BAD_REQUEST, "Erro ao formatar o valor"));
 
-        var temperatureLogOutput = TemperatureLogOutput.builder()
+        var temperatureLogOutput = TemperatureLogData.builder()
                 .id(IdGenerator.generateTimeBasedUUID())
                 .sensorId(sensorId)
                 .value(temperature)
